@@ -1,2 +1,16 @@
-let monTitre = document.querySelector('googlelogo');
-monTitre.textContent = 'Hello world!';
+function toggle(content)
+{
+	node = document.getElementById(content);
+	if (node.style.visibility=="hidden")
+	{
+		// Contenu caché, le montrer
+		node.style.visibility = "visible";
+		node.style.height = "auto";			// Optionnel rétablir la hauteur
+	}
+	else
+	{
+		// Contenu visible, le cacher
+		node.style.visibility = "hidden";
+		node.style.height = "0";			// Optionnel libérer l'espace
+	}
+}
