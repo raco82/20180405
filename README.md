@@ -13,7 +13,7 @@ Peut-être que ça peut vous être utile ;)
 
 -------------
 
-[http://raco-googlepimp.surge.sh/](URL)
+http://raco-googlepimp.surge.sh/
 
 </center>
 
